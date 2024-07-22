@@ -6,6 +6,9 @@ This repository contains a Solidity smart contract for a simple lottery system o
 
 ## Contract Details
 
+-`Language` : SOLIDITY
+-`Platform Used` : https://remix.ethereum.org/
+
 ### Entities
 - **Manager**: The person who deploys the contract and manages the lottery.
 - **Players**: Participants who enter the lottery by paying 1 ether.
@@ -19,7 +22,7 @@ This repository contains a Solidity smart contract for a simple lottery system o
 - `pickWinner()`: Selects a random winner from the players, transfers the contract balance to the winner, and resets the players array. Can only be called by the manager and requires at least 3 players to have participated.
 
 
-####Usage
+### Usage
 1.Deploy the Contract: The person deploying the contract becomes the manager.
 2.Participate in the Lottery: Players can enter the lottery by calling the participate function and sending exactly 1 ether.
 3.Check Balance: The manager can check the contract's balance by calling the getBalance function.

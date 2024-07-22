@@ -1,13 +1,12 @@
-# Lottery
-
 # Lottery Smart Contract
 
 This repository contains a Solidity smart contract for a simple lottery system on the Ethereum blockchain. 
 
 ## Contract Details
 
--`Language` : SOLIDITY
--`Platform Used` : https://remix.ethereum.org/
+`Language` : SOLIDITY
+
+`Platform Used` : https://remix.ethereum.org/
 
 ### Entities
 - **Manager**: The person who deploys the contract and manages the lottery.
